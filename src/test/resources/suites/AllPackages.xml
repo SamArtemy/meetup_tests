@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AllPackages" parallel="classes" thread-count="10" verbose="1">
+    <!--<listeners>
+        <listener class-name="Utils.Listeners.RetryListener"/>
+    </listeners>-->
+    <test name="all-packages">
+        <packages>
+            <package name=".*" />
+        </packages>
+    </test>
+</suite>
